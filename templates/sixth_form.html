@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head defines favicon, title on tab, and 'meta' stuff -->
+<head>
+	<meta charset="utf-8">
+	<title>WMS Forms</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/cards.png') }}">
+	<link rel="apple-touch-icon" href="{{ url_for('static', filename='images/cards.png') }}">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
+</head>
+
+<header>
+
+<style>
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.wrapper {
+  position: relative;
+  width: 550px;
+  height: 100px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.signature-pad {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:550px;
+  height:100px;
+	border: 5px solid black;
+}
+</style>
+</header>
+
+<body>
+<div class="container">
+<h1>6th Grade iPad User Agreement</h1>
+<h3>PLEASE NOTE:</h3>
+<h4>--------------------------------------------------------------------------------<br>
+	Willmar Middle School 6th grade students will be assigned an iPad at the beginning
+	of the school year. The iPads of 6th grade students will be checked in to the
+	student's 5th hour class.<br>
+	----------------------------------------------------------------------------------</h4>
+<p><strong>Please read the following information pertaining to the care and use of the
+	iPad that is assigned to your child</strong></p>
+
+<p>*The iPad is the property of Willmar Public Schools and as a result MAY be seized and
+	contents inspected at any time. The student should have NO expectation of privacy of
+	materials found on an iPad. <br><br>
+	*The App Store will not be avilable to students at the middle school. Students will
+	only be able to download apps from the Self Service app.<br><br>
+	*Parents and students must sign this agreement before the iPad can be issued<br><br>
+	*Never leave an iPad unattended. When not in your personal possession, the iPad should
+	be in a secure, locked environment. Unattended iPads will be collected and stored in
+	the main office.<br><br>
+	*If the iPad is lost, it must be reported to the main office as soon as possible.
+	It may be the responsibility of the student and family to recover or replace the lost
+	iPad. If necessary, the district and the police will assist in the recovery.<br><br>
+	*REPLACEMENT COSTS FOR DAMAGES AND REPARIS:<br>
+	    -Damaged or broken screen may cost up to $50.00 depending on what layer of the screen is broken.<br>
+			-Replacement cost for the provided iPad case is $30.00<br>
+			-Replacement cost for the entire iPad is $400.00<br><br>
+	*Do not attempt to gain access to the internal electronics or repair your iPad.
+	If your iPad fails to work or is damaged, report the problem to the school main
+	office as soon as possible.<br><br>
+	*Students may not remove the school-issued case. Students should not decorate the iPad case.<br><br>
+	*All electronic recordings created with the device must comply with district policies and state
+	and federal laws. District policy prohibits the use of electronic recording devices in a
+	manner that compromises the privacy interests of other individuals. District policy also
+	prohibits harassment and bullying. Users of the iPad are required to use the device
+	in a manner that complies with these and other district policies. Use of the iPad
+	in a manner that vilates district policy may result in revocation of the device and
+	may result in further disciplinary consequeses.<br><br>
+	*Secret or surrepitituou recording taken without the knowledge and consent of the person
+	or persons being recorded is not allowed. Violations of state and federal reording laws
+	may be reported to the proper authorities and may result in criminal prosecution.<br><br>
+	*You are NOT ALLOWED to lend your iPad to another person. Each iPad is assigned to an individual and the responsibility
+	for the care of the iPad soley rests with that individual.<br><br>
+	*Each student will be REQUIRED to use the first four digits of their lunch number
+	as a passcode lock to the iPad. Students are required to use their given passcode.<br><br>
+	*Access to technology in the Willmar Middle School has been established for educational
+	purposes. The use of the Willmar Middle School's electronic technologies is a valued
+	resource in our community. All electronic technologies MUST be used in support of the
+	educational program of the district. This access MAY be revoked at any time for abusive
+	or inappropriate conduct related to the use of electronic technologies. Failure to comply
+	with the district's discipline policy, Internet Acceptable Use Policy, or the guildlines
+	stated in this document for the case and use of the iPad MAY result in the loss of
+	privilge to use the iPad at school.<br><br>
+</p>
+<h3>These Actions are STRICTLY PROHIBITED:</h3>
+<p>----------------------------------------------------------------------------------</p>
+   <ol type="1">
+      <li>Any action that violates existing board policy or public law</li><br>
+      <li>Sending, accessing, uploading, downloading, or distributing offensive, explicit,
+				profane, threatening, pornographic, obscene, or sexually-explicit materials</li><br>
+			<li>Pictures, video, and audio recordings of any staff member WITHOUT
+				written consent</li><br>
+			<li>Pictures, video, and audio recordings of any student WITHOUT consent</li><br>
+			<li>Pictures, video, and audio recordings of any student or staff member AT ANY
+				TIME in locker rooms or restrooms</li><br>
+			<li>Use of chatrooms, sites selling term papers, book reports, and other forms
+				of student work</li><br>
+			<li>Vandalism (any malicious attempt to harm or destory hardware, software
+				or data, including, but not limited to, the uploading or creation of computer
+				viruses or computer programs that can infilitrate computer systems and or
+				damage software components) of school equipment will not be allowed</li><br>
+			<li>Transmitting or accessing materials that are obscene, offensive, threatening,
+				or otherwise intended to harass or demean recipients</li><br>
+      <li>Bypassing the Willmar Public Schools web filter through a web proxy or VPN</li><br>
+      <li>Messaging services or non-educational social metworks at school -- includes,
+				but not limited to: Twitter, Pinterest, Facebook, Snapchat, Instagram, etc.</li><br>
+			<li>Spamming -- sending mass or inappropriate emails</li><br>
+			<li>Gaining access to other student's accounts, files, and or data</li><br>
+			<li>Use of the school's internet e-mail accounts for financial or commercial
+				gain or for any illegal activity</li><br>
+			<li>Giving out personal information, for any reason, over the internet.
+				This includes, but is not limited to, setting up internet accounts including
+				those necessary for chat rooms, Ebay, email, etc.</li><br>
+			<li>Participation in credit card fraud, electronic forgery or other forms of
+				illegal behavior</li><br>
+   </ol>
+<p>--------------------------------------------------------------------------</p>
+<p>I have read all of the above policies and guidelines and understand my responsibilites
+	as a student usign the iPad</p>
+
+<div class="container">
+	{% from "_formhelper.html" import render_field %}
+	{{ form.hidden_tag }}
+	<form id="upload-form" method="POST" action="/sixth_form/" enctype="multipart/form-data">
+    <dl>
+      {{render_field(form.stu_name)}}
+			{{render_field(form.hidden_f, id="hide")}}
+			{{render_field(form.hidden_g, id="noshow")}}
+		</dl>
+		<p>Student Signature</p>
+<div class="wrapper">
+  <img src="{{ url_for('static', filename='images/grey.jpeg') }}" width=550 height=100 />
+  <canvas id="signature-pad" class="signature-pad" width=550 height=100></canvas>
+</div>
+<div>
+  <button id="clear" type="Button">Clear</button>
+</div>
+<br>
+	<p>Parent Signature</p>
+<div class="wrapper">
+  <img src="{{ url_for('static', filename='images/grey.jpeg') }}" width=550 height=100 />
+  <canvas id="signature-padone" class="signature-pad" width=550 height=100></canvas>
+</div>
+<div>
+  <button id="erase" type="Button">Clear</button>
+</div>
+<br>
+	<p><input id="finalsub" type="submit" value="Submit"></p>
+	</form>
+</div>
+
+<script>
+var signaturePad = new SignaturePad(document.getElementById('signature-pad'), {
+  backgroundColor: 'rgba(255, 255, 255, 255)',
+  penColor: 'rgb(0, 0, 0)'
+});
+var saveButton = document.getElementById('finalsub');
+var cancelButton = document.getElementById('clear');
+
+saveButton.addEventListener('click', function (event) {
+  var data = signaturePad.toDataURL('image/png');
+	document.getElementById('hide').value = data.toString();
+
+// Send data to server instead...
+//window.open(data)
+});
+
+cancelButton.addEventListener('click', function (event) {
+  signaturePad.clear();
+});
+</script>
+
+<script>
+var signaturePadone = new SignaturePad(document.getElementById('signature-padone'), {
+  backgroundColor: 'rgba(255, 255, 255, 255)',
+  penColor: 'rgb(0, 0, 0)'
+});
+var saveButton = document.getElementById('finalsub');
+var cancelButton = document.getElementById('erase');
+
+saveButton.addEventListener('click', function (event) {
+  var data = signaturePadone.toDataURL('image/png');
+	document.getElementById('noshow').value = data.toString();
+
+// Send data to server instead...
+//window.open(data)
+});
+
+cancelButton.addEventListener('click', function (event) {
+  signaturePadone.clear();
+});
+</script>
+</div>
+</body>
